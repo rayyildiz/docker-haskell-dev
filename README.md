@@ -12,9 +12,10 @@ Tags:
 * 7.10.2
 * latest (8.0.1)
 
-.,,
+```
 docker run --rm -i -t -v `pwd`:/home/ghc rayyildiz/haskell-dev /bin/bash
-.,,
+```
+
 
 
 This image is based on https://github.com/mitchty/alpine-ghc
