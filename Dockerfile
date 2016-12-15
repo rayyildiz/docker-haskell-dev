@@ -6,10 +6,9 @@ ENV LANG     C.UTF-8
 ENV LC_ALL   C.UTF-8
 ENV LANGUAGE C.UTF-8
 
-RUN apk --update add bash
+RUN apk --update add bash gcc
 
 RUN adduser -D -h /home/ghc -s /bin/bash ghc
-# RUN echo "ghc ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/ghc && chmod 0440 /etc/sudoers.d/ghc
 ENV HOME /home/ghc
 WORKDIR /home/ghc
 
