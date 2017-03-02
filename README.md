@@ -3,14 +3,15 @@ Haskell on Alpine Linux
 
 Link: https://hub.docker.com/r/rayyildiz/haskell-dev/
 
-Current java : Latest version : *8.0.1*
+Current java : Latest version : *8.0.2*
 
 Tags:
-* 8 (8.0.1)
+* 8 (8.0.2)
 * 7 (7.10.2)
 * 8.0.1
+* 8.0.2
 * 7.10.2
-* latest (8.0.1)
+* latest (8.0.2)
 
 ```
 docker run --rm -i -t -v `pwd`:/home/ghc rayyildiz/haskell-dev /bin/bash
